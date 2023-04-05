@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif;
+    background-color: salmon;
+}
+.header{
+    z-index: 1;
+    background-color: white;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+ul{
+    width:500px;
+    float: right;
+    margin-right: 40px; 
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.name{
+    padding-right: 50px;
+    line-height: 10px;
+}
+.name h1 span{
+    color: white;
+}
+ion-icon{
+    width: 300px;
+    color:white;
+    height: 300px;
+}
+.main-content{
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.introduction{
+    z-index: 0;
+    position: relative;
+    width: 700px;
+    height: 415px;
+    background: white;
+    border: 2px solid rgba(240,248,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    margin-left: 25px;
+}
+.introduction .para{
+    position: relative;
+    padding: 10px;
+    line-height: 1.2em;
+}
+.content{
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.profile-aboutme{
+    margin-right:25px;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 50px; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  .Academic-Qualifications,.Projects,.Extra-Curricular{
+    background-color: white;
+    width:77%;
+    border-radius: 20px;
+    margin: 75px 50px 0 250px;
+    padding: 10px;
+  }
+  .styled-table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 25px 0 ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.Technical-Skills,.Certifications{
+    background-color: black;
+    color: white;
+    width: 77%;
+    border-radius: 20px;
+    margin: 75px 50px 0 250px;
+    padding: 10px;
+}
